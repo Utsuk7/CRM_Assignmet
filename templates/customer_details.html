@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Audience</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Audience Management</h1>
+
+        <div class="form-container">
+            <h2>Add Customer</h2>
+            <form action="add_customer" id="addCustomerForm" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="visits">Visits:</label>
+                    <input type="number" id="visits" name="visits" required>
+                </div>
+                <div class="form-group">
+                    <label for="last_visit">Last Visit:</label>
+                    <input type="date" id="last_visit" name="last_visit" required>
+                </div>
+                <div class="form-group">
+                    <label for="total_spends">Total Spends:</label>
+                    <input type="number" id="total_spends" name="total_spends" required>
+                </div>
+                <button type="button" class="btn" onclick="addCustomer()">Add Customer</button>
+            </form>
+        </div>
+
+    <script>
+        async function addCustomer() {
+            const form = document.getElementById('addCustomerForm');
+            const data = {
+                name: form.name.value,
+                email: form.email.value,
+                visits: form.visits.value,
+                last_visit: form.last_visit.value,
+                total_spends: form.total_spends.value
+            };
+            
+            const response = await fetch('/add_customer', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+            const result = await response.json();
+            alert(result.message);
+            if (response.ok) {
+                location.reload();
+            }
+        }
+    </script>
+</body>
+</html>
