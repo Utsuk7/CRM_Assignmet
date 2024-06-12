@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "666819377c26257edb0a801b"
+  },
+  "name": "Shashvat Ahuja",
+  "email": "shashvatahuja@gmail.com",
+  "visits": "5",
+  "last_visit": {
+    "$date": "2024-02-01T00:00:00.000Z"
+  },
+  "total_spends": "5280"
+},
+{
+  "_id": {
+    "$oid": "666823637e7a280b07c23559"
+  },
+  "name": "Arth Masand",
+  "email": "arthhello@gmail.com",
+  "visits": 12,
+  "last_visit": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "total_spends": 15700
+},
+{
+  "_id": {
+    "$oid": "666823837e7a280b07c2355a"
+  },
+  "name": "Arpan Singh",
+  "email": "arpansingh18@gmail.com",
+  "visits": 7,
+  "last_visit": {
+    "$date": "2023-11-08T00:00:00.000Z"
+  },
+  "total_spends": 9000
+},
+{
+  "_id": {
+    "$oid": "6668239e7e7a280b07c2355b"
+  },
+  "name": "Chirag Tyagi",
+  "email": "chiragtyagi@gmail.com",
+  "visits": 12,
+  "last_visit": {
+    "$date": "2024-06-11T00:00:00.000Z"
+  },
+  "total_spends": 12000
+},
+{
+  "_id": {
+    "$oid": "6668295cb87efa9270d9b65e"
+  },
+  "name": "Utsuk Yadav",
+  "email": "yadavutsuk@gmail.com",
+  "visits": 12,
+  "last_visit": {
+    "$date": "2024-06-04T00:00:00.000Z"
+  },
+  "total_spends": 14670.99
+},
+{
+  "_id": {
+    "$oid": "666936798be4e1f2aaf153af"
+  },
+  "name": "Prakhar",
+  "email": "prakhar@gmail.com",
+  "visits": 2,
+  "last_visit": {
+    "$date": "2024-04-17T00:00:00.000Z"
+  },
+  "total_spends": 2000
+},
+{
+  "_id": {
+    "$oid": "666939f3e405c77f3b4e9e19"
+  },
+  "name": "Utsuk",
+  "email": "yadavutsuk@gmail.com",
+  "visits": 2,
+  "last_visit": {
+    "$date": "2024-06-02T00:00:00.000Z"
+  },
+  "total_spends": 14700
+}]

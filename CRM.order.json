@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "66684db0592700b06db60e8a"
+  },
+  "CustomerID": "IB71",
+  "ProductName": "Cr7 Superfly",
+  "Amount": 21000,
+  "Date": "2024-06-07"
+},
+{
+  "_id": {
+    "$oid": "666850b82fafb847b54061b8"
+  },
+  "CustomerID": "X7S5",
+  "ProductName": "Iphone 15",
+  "Amount": 85000,
+  "Date": "2024-06-05"
+},
+{
+  "_id": {
+    "$oid": "666936938be4e1f2aaf153b0"
+  },
+  "CustomerID": "AB12",
+  "ProductName": "Bag",
+  "Amount": 2500,
+  "Date": "2024-06-04"
+},
+{
+  "_id": {
+    "$oid": "66693a0de405c77f3b4e9e1a"
+  },
+  "CustomerID": "AV67",
+  "ProductName": "Cr7 Superfly",
+  "Amount": 25250,
+  "Date": "2024-06-11"
+}]
